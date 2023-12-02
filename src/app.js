@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const bodyParse = require("body-parser");
 const colors = require("ansi-colors");
-const dbConnect = require("./database/connect")
+const dbConnect = require("../database/connect")
 
 // connect database
 dbConnect()
